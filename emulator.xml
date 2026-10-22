@@ -81,7 +81,7 @@
   <project path="external/m4" name="toolchain/m4" groups="notdefault,platform-linux,platform-darwin" revision="4c63838f0ccd1a8850a3d17f31c3427668a78a23" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="34c5ae008bf811fce3006818f26f922b3647237a" />
   <project path="external/flatbuffers" name="platform/external/flatbuffers" revision="696f46b5ac8fc8a326f8361d8007d9d9ba341ab0" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="2984e76c01eb572cf8f70cf8e175eadae6de4a30" />
+  <project path="external/mesa3d" name="Kemu-emulator_external_mesa3d" remote="github" revision="refs/heads/emu-main-dev" dest-branch="emu-main-dev" />
   <project path="external/moltenvk" name="platform/external/moltenvk" revision="4d44e42aacc0734d4c55e26602e5aded66f73f6c" />
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" clone-depth="1" revision="6d526de777b61fdbdaae61a24b1002db80870016">
     <linkfile src="android-sdk" dest="prebuilts/android/android-sdk" />
